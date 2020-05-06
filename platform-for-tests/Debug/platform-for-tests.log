@@ -1,0 +1,8 @@
+﻿  Menu.cpp
+  Test.cpp
+C:\Users\User\source\repos\platform-for-tests\platform-for-tests\TestController.h(11,2): warning C4091: static : пропускается слева от "TestController", когда ни одна переменная не объявлена
+C:\Users\User\source\repos\platform-for-tests\platform-for-tests\Test.cpp(89,8): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+C:\Users\User\source\repos\platform-for-tests\platform-for-tests\Test.cpp(160,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\platform-for-tests\platform-for-tests\Test.cpp(183,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  platform-for-tests.vcxproj -> C:\Users\User\source\repos\platform-for-tests\Debug\platform-for-tests.exe

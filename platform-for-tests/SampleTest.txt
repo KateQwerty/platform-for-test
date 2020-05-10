@@ -1,4 +1,4 @@
 3
-Do you have a laptop$4$yes$no$what the laptop$i don'know$2$1$2
+Do you have a laptop$10$yes$no$what the laptop$i don'know$1$2$3$4$5$6$2$1$2
 Do you have a laptop$4$yes$no$what the laptop$i don'know$1$1$
 Do you have a laptop$4$yes$no$what the laptop$i don'know$2$1$2

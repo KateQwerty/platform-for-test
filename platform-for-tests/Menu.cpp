@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Test.h"
 
-int main() {
+int main() 
+{
 
 	Test App;
 	App.chooseTest();

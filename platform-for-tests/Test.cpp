@@ -68,7 +68,8 @@ void Test::startTest(std::string filename) {
 
 		std::vector <int> userAnswers;
 
-		for (int i = 0; i < numberAnswers; ++i) {
+		for (int i = 0; i < numberAnswers; ++i) 
+		{
 			int nextValue;
 
 			if (i == 0) {
@@ -151,12 +152,18 @@ TestModel Test::decodeQuestionString(std::string questionString) {
 
 	//find number of answers
 	//-------------------------------------
-	int numberAnswers = questionString[pos] - '0';
+	std::string number = "";
+	while (questionString[pos] != '$')
+	{
+		number += questionString[pos];
+		pos++;
+	}
+	int numberAnswers = stoi(number);
 	//-------------------------------------
 
 	//find answers
 	//-----------------------------------------------------
-	pos += 2;
+	pos += 1;
 	for (int i = pos; i < questionString.size(); ++i) {
 		pos++;
 		if (questionString[i] == '$') {
@@ -173,8 +180,13 @@ TestModel Test::decodeQuestionString(std::string questionString) {
 
 	//find number of correct answers
 	//-----------------------------------------------------
-	pos++;
-	int numberCorrectAnswers = questionString[pos] - '0';
+	number = "";
+	while (questionString[pos] != '$')
+	{
+		number += questionString[pos];
+		pos++;
+	}
+	int numberCorrectAnswers = stoi(number);
 	//-----------------------------------------------------	
 
 	//find correct answers

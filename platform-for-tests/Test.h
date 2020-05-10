@@ -7,7 +7,8 @@
 #include <algorithm>
 #include <iomanip>
 
-class Test {
+class Test 
+{
 
 private:
 	std::vector<TestModel> testData;
